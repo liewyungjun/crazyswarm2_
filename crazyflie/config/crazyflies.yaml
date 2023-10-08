@@ -1,8 +1,8 @@
 # named list of all robots
 robots:
-  cf231:
+  cf6:
     enabled: true
-    uri: radio://0/80/2M/E7E7E7E7E7
+    uri: radio://0/100/2M/E7E7E7E706
     initial_position: [0, 0, 0]
     type: cf21  # see robot_types
     # firmware_params:
@@ -72,7 +72,7 @@ all:
   # firmware logging for all drones (use robot_types/type_name to set per type, or
   # robots/drone_name to set per drone)
   firmware_logging:
-    enabled: false
+    enabled: true
     default_topics:
      # remove to disable default topic
       pose:
